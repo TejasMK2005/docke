@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "tejasise/python"
+        DOCKER_IMAGE = "tejasise/app-image"
     }
 
     stages {
